@@ -87,40 +87,59 @@ only screen and (max-width: 760px),
 <?php $books = 
     [
         [
-            "judul" => "Jarum diatas Jerami",
+			"gambar" => "https://upload.wikimedia.org/wikipedia/id/thumb/f/f3/Ayah_%28novel%29.jpeg/220px-Ayah_%28novel%29.jpeg",
+			"judul" => "Ayah",
+			"karangan" => "Andrea Hirata",
             "ISBN" => "736-3636-28-9",
             "urutanBuku" => 1,
-            "tahunterbit" => "2007"
+			"tahunterbit" => "2007",
+			"deskripsi" => "Ayah adalah sebuah novel fiksi yang ditulis Andrea Hirata, dan di terbitkan oleh Bentang Pustaka pada 2015."
         ],
         [
-            "judul" => "Panji Nusantara",
-            "ISBN" => "828-3765-27-2",
+            "judul" => "Orang Biasa",
+            "ISBN" => "0-14-006517-2",
             "urutanBuku" => 2,
-            "tahunterbit" => "2017"
+			"tahunterbit" => "2017",
+			"gambar" => "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Ordinary_People_cover.jpg/220px-Ordinary_People_cover.jpg",
+			"karangan" => "Judith Guest",
+			"deskripsi" => "Bagaimanapun, mereka adalah orang biasa. Untuk beberapa waktu mereka telah memasuki dunia statistik surat kabar; dunia di mana tindakan apa pun yang Anda ambil untuk merasa lebih baik hanya sementara, paling banter, tapi itu sudah berakhir. Ini permanen. Itu pasti."
         ],
         [
             "judul" => "Sang Pemimpi",
             "ISBN" => "979-3062-92-4",
             "urutanBuku" => 3,
-            "tahunterbit" => "2011"
+			"tahunterbit" => "2011",
+			"gambar" => "https://upload.wikimedia.org/wikipedia/id/thumb/8/89/Sang_Pemimpi_sampul.jpg/220px-Sang_Pemimpi_sampul.jpg",
+			"karangan" => "Andrea Hirata",
+			"deskripsi" => "Sang Pemimpi Baru adalah novel kedua dalam tetralogi Laskar Pelangi karya Andrea Hirata yang diterbitkan oleh Bentang Pustaka pada Juli 2006. Dalam novel ini, Andrea mengeksplorasi hubungan persahabatannya dengan dua anak yatim piatu, Arai Ichsanul Mahidin dan Jimbron, serta kekuatan mimpi yang dapat membawa Andrea dan Arai melanjutkan studi ke Sorbonne, Paris, Prancis.
+			Dalam novel Sang Pemimpi, Andrea Hirata bercerita tentang kehidupannya di Belitong pada masa SMA. Tiga tokoh utama dalam karya ini adalah Ikal, Arai dan Jimbron. Ikal tidak lain adalah Andrea Hirata sendiri, sedangkan Arai Ichsanul Mahidin adalah saudara jauhnya yang menjadi yatim piatu ketika masih kecil. Arai disebut simpai keramat karena dalam keluarganya ia adalah orang terakhir yang masih hidup dan ia pun diangkat menjadi anak oleh ayah Ikal. Jimbron merupakan teman Arai dan Ikal yang sangat terobsesi dengan kuda dan gagap bila sedang antusias terhadap sesuatu atau ketika gugup. Ketiganya melewati kisah persahabatan yang terjalin dari kecil hingga mereka bersekolah di SMA Negeri Bukan Main, SMA pertama yang berdiri di Belitung bagian timur.",
 		],
 		[
 			"judul" => "Lakar Pelangi",
 			"ISBN" => "979-3062-79-7",
 			"urutanBuku" => 4,
-			"tahunterbit" => "2005"
+			"tahunterbit" => "2005",
+			"gambar" => "https://upload.wikimedia.org/wikipedia/id/thumb/8/8e/Laskar_pelangi_sampul.jpg/220px-Laskar_pelangi_sampul.jpg",
+			"karangan" => "Andrea Hirata",
+			"deskripsi" => "Laskar Pelangi adalah novel pertama karya Andrea Hirata yang diterbitkan oleh Bentang Pustaka pada tahun 2005. Novel ini bercerita tentang kehidupan 10 anak dari keluarga miskin yang bersekolah (SD dan SMP) di sebuah sekolah Muhammadiyah di Belitung yang penuh dengan keterbatasan",
 		],
 		[
-			"judul" => "Syukurlah",
-			"ISBN" => "124-3526-99-1",
+			"judul" => "Padang Bulan",
+			"ISBN" => "	978-602-881-109-5",
 			"urutanBuku" => 5,
-			"tahunterbit" => "2017"
+			"tahunterbit" => "2010",
+			"gambar" => "https://upload.wikimedia.org/wikipedia/id/thumb/e/ea/Padang_Bulan.jpg/220px-Padang_Bulan.jpg",
+			"karangan" => "Andrea Hirata",
+			"deskripsi" => "Padang Bulan adalah sebuah novel fiksi karya Andrea Hirata, diterbitkan oleh Bentang Pustaka pada 2010. Novel ini berkisah tentang Enong, gadis kecil yang ketika usia ke 14 harus kehilangan sosok seorang ayah dan mengemban tugas sebagai anak pertama yang begitu berat. Enong harus meninggalkan sekolahnya demi sekolah adik-adiknya dan mengambil suatu pekerjaan yang hina, yaitu seorang pendulang timah",
 		],
 		[
-			"judul" => "Surat Dari Nabawi",
-			"ISBN" => "761-2765-12-2",
+			"judul" => "Cinta Dalam Gelas",
+			"ISBN" => "978-602-881-109-5",
 			"urutanBuku" => 6,
-			"tahunterbit" => "2019"
+			"tahunterbit" => "2011",
+			"gambar" => "https://upload.wikimedia.org/wikipedia/id/thumb/0/0c/Cinta_di_Dalam_Gelas.jpg/220px-Cinta_di_Dalam_Gelas.jpg",
+			"karangan" => "Andrea Hirata",
+			"deskripsi" => "Cinta di Dalam Gelas adalah sebuah novel fiksi karya Andrea Hirata, diterbitkan oleh Bentang Pustaka pada 2011. Cinta di Dalam Gelas bertutur tentang tugas berat di pundak Ikal. Dia harus membantu Maryamah memenangkan pertandingan catur saat 17 Agustus nanti. Maryamah, yang memenangkan bidak catur saja belum pernah, dan harus mengalahkan juara catur selama dua tahun berturut-turut yang juga memenangkan kompetisi. Namun, lebih dari itu, gender Maryamah adalah hal tabu katanya untuk bermain catur.",
   		]
     ]  
   ?>
@@ -149,7 +168,7 @@ only screen and (max-width: 760px),
 	  <td><?php echo $book["judul"]; ?></td>
 	  <td><?php echo $book["ISBN"]; ?></td>
 	  <td>
-	  <a href="index3.php?judul=<?= $book["judul"]; ?>&ISBN=<?= $book["ISBN"]; ?>">
+	  <a href="index3.php?judul=<?= $book["judul"]; ?>&ISBN=<?= $book["ISBN"]; ?>&deskripsi=<?= $book["deskripsi"]; ?>&gambar=<?= $book["gambar"]; ?>&karangan=<?= $book["karangan"]; ?>">
 	  	<button class="btn btn-sm btn-success">Lihat</button>
 	  </a>
 	  </td>
