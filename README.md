@@ -8,4 +8,4 @@ Screenshot :
 
 #### Menggunakan Metode GET
 Screenshot :
-![screenshoot](https://github.com/andikatuluspangestu/DataBukuArrayAssociative/blob/master/Screenshot%20from%202020-11-19%2009-44-36.png)
+![screenshoot](https://github.com/andikatuluspangestu/DataBukuArrayAssociative/blob/master/method-get/Screenshot%20from%202020-11-19%2011-17-50.png)
