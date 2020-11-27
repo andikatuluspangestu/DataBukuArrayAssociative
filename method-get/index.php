@@ -158,9 +158,9 @@ only screen and (max-width: 760px),
   </thead>
   <tbody>
 
+	<br><br>
+	<h2 class="text-center">Sistem Informasi Data Buku</h2>
 	<br>
-	<h2 class="text-center">Sistem Pendataan Buku</h2>
-	
 	<?php foreach($books as $book) : ?>
 
 	<tr>
@@ -179,6 +179,10 @@ only screen and (max-width: 760px),
     </tr>
   </tbody>
 </table>
+<span>
+	Terakhir di perbarui pada 
+	<?php echo date('d-m-Y H:i:s'); ?>
+</span>
 <br>
 </div>
 </body>
